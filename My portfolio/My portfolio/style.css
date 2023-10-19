@@ -1,0 +1,187 @@
+/*----------------------------
+    GENERAL SETTINGS
+----------------------------*/
+
+/*
+    (46, 79, 85)
+*/
+:root{
+    --firstcolor:rgba(233, 233, 83);
+    --secondcolor:rgb(46, 79, 85);
+    --background:rgb(117, 140, 141);
+}
+html{
+    scroll-behavior: smooth;
+}
+.bg-color{
+    background-color: var(--firstcolor);
+}
+body{
+    background-color:black ;
+    color:white ;
+}
+.cont{
+    height: 100vh;
+}
+h1{
+    font-size: 45px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color:white;
+    
+}
+span{
+    color: var(--firstcolor);
+    text-align: center;
+}
+a{
+    cursor: pointer;
+}
+
+/*----------------------------
+    NAVBAR SECTION
+----------------------------*/
+.bar{
+    position: fixed;
+    top: 1px;
+}
+.navbar{
+    background-color: var(--secondcolor);
+    color: white;
+    margin: none;
+}
+
+/*----------------------------
+    SIDEBAR SECTION
+----------------------------*/
+
+.sidebar{
+    position: fixed;
+    top: 0px;
+    left:0px;
+    padding:0px 15px 0px 15px;
+    width: 250px;
+    height: 100vh;
+    background: var(--secondcolor);
+}
+.fimage{
+    width:150px;
+    border:5px solid var(--firstcolor);
+}
+
+.nav a{
+  background-color: var(--firstcolor);
+  margin-bottom: 10px;
+  border-radius: 1.5rem;
+   
+   color: white;
+}
+
+/*----------------------------
+    SCROLLBAR SECTION
+----------------------------*/
+
+    ::-webkit-scrollbar{
+        width: 1rem;
+ }
+    ::-webkit-scrollbar-track{
+        background-color: var(--secondcolor);
+}
+    ::-webkit-scrollbar-thumb{
+        background-color: var(--firstcolor);
+        border-radius:60px;
+ }
+
+ /*----------------------------
+    HOME SECTION
+----------------------------*/
+
+
+
+
+
+
+ /*----------------------------
+    ABOUT SECTION
+----------------------------*/
+.btn{
+    background-color: var(--firstcolor);
+    color: white;
+    border-radius: 30px;
+    width: 200px;
+    margin-top:20px ;
+    margin-bottom:20px ;
+}
+.progress-bar{
+    background-color: var(--firstcolor);
+    color: black;
+}
+
+/*----------------------------
+    SERVICES SECTION
+----------------------------*/
+
+.card1{
+    background-color: var(--secondcolor);
+    color: white;
+}
+.card2{
+    transition:all 0.5s ease;
+
+}
+.card2:hover{
+    box-shadow: -20px 20px 15px rgba(0,0,0,0.5);
+    background-color: var(--secondcolor);
+    color: white;
+}
+.card2 .card-body p:hover{
+    color: white;
+}
+.card2 .card-title:hover{
+    color: white;
+}
+
+/*----------------------------
+    PORTFOLIO SECTION
+----------------------------*/
+.item{
+    height: 200px;
+    transition: all 0.5s ease;
+}
+.item:hover{
+    filter: brightness(80%);
+    box-shadow: -20px 20px 15px rgba(0,0,0,0.5);
+    transform: scale(1.2);
+}
+
+
+
+/*----------------------------
+    FOOTER SECTION
+----------------------------*/
+
+.footer{
+    background-color: var(--secondcolor);
+}
+
+/*----------------------------
+    COPYRIGHT SECTION
+----------------------------*/
+
+.gotop{
+    height: 40px;
+    width: 50px;
+    background-color: var(--secondcolor);
+    position: fixed;
+    right: 30px;
+    bottom: 10px;
+    border-radius: 5px;
+   
+}
+.icons{
+    transition: all 0.5s ease;
+}
+.icons:hover{
+    box-shadow: -15px 15px 15px rgba(0,0,0,0.5);
+    transform: scale(1.2);
+}
